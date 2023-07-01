@@ -1,0 +1,187 @@
+* {
+    margin: 0px;
+    padding: 0ox;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    position: absolute;
+    left: 0px;
+}
+
+.title {
+    color: white;
+    font-size: 75px;
+}
+
+.subtitle {
+    color: #EDA672;
+    font-size: 33px;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: rgba(162, 162, 162, 0);
+    height: 100%;
+}
+.earth {
+    display: flex;
+    height: 600px;
+    width: 762px;
+}
+nav {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    width: 130px;
+    height: 100%;
+    left: -350px;
+    transition: all .4s;
+}
+
+.menu {
+    width: 100px;
+    height: 100%;
+    transition: all .4s;
+}
+
+.menu ul {
+    background-color: rgba(201, 201, 201, 0);
+}
+
+.menu ul li {
+    background-color: rgb(136, 130, 130, 0);
+    padding: 20px 5px;
+    display: block;
+}
+
+.menu u {
+    list-style: none;
+    top: 70px;
+    position: absolute;
+    width: 100%;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]:checked~nav {
+    transform: translateX(350px);
+
+}
+
+.telefone {
+    width: 85px;
+    height: 85px;
+}
+
+.sobre {
+    width: 85px;
+    height: 85px;
+}
+
+.login {
+    width: 90px;
+    height: 90px;
+}
+
+footer {
+    background-color: #000000;
+}
+
+.main {
+    width: 100%;
+}
+
+.section1 {
+    background-image: url("moon.png");
+    background-size: cover;
+    background-position: center 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+.subs {
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.info {
+    width: 800px;
+    height: 200px;
+    position: relative;
+    background-color: rgb(255, 255, 255, 0);
+    margin: auto;
+    bottom: 550px;
+}
+
+.infotext {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+}
+
+.section2 {
+    background-color: rgb(19, 19, 19);
+}
+
+.div2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.t1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+.t2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: white;
+}
+
+.div3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    height: 230px;
+    margin: 5px auto;
+    border: 5px solid;
+    border-image: linear-gradient(to right, purple, orange);
+    border-image-slice: 1;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, purple, orange);
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+button:hover {
+    opacity: 0.8;
+}
